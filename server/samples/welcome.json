@@ -1,0 +1,34 @@
+{
+  "objs": [
+    { "type": "debug", "value": "Parsing section: Frame and logo" },
+    { "type": "line", "ini": { "x":150, "y":0 }, "end":{ "x":150, "y":480 }, "color":0 },
+    { "type": "line", "ini": { "x":0, "y":150 }, "end":{ "x":150, "y":150 }, "color":0 },
+    { "type": "line", "ini": { "x":0, "y":280 }, "end":{ "x":150, "y":280 }, "color":0 },
+    { "type": "circle", "center": { "x":72, "y":62 }, "diameter": 104, "color":0 },
+    { "type": "text", "pos": { "x":28, "y":45 }, "text":"carebnb", "size":24, "color":255 },
+    { "type": "text", "pos": { "x":18, "y":120 }, "text":"www.carebnb.app", "size":14, "color":0 },
+
+    { "type": "debug", "value": "Parsing section: Calendar" },
+    { "type": "text", "pos": { "x":25, "y":160 }, "text":"Tue", "size":60, "color":0 },
+    { "type": "text", "pos": { "x":40, "y":230 }, "text":"Jun 23", "size":24, "color":0 },
+
+    { "type": "debug", "value": "Parsing section: Info" },
+    { "type": "text", "pos": { "x":10, "y":295 }, "text":"Reservation code:", "size":14, "color":0 },
+    { "type": "text", "pos": { "x":10, "y":320 }, "text":"HM4Q2RNBHF", "size":18, "color":0 },
+    { "type": "text", "pos": { "x":10, "y":355 }, "text":"Check-in:", "size":14, "color":0 },
+    { "type": "text", "pos": { "x":10, "y":380 }, "text":"25/06 @ 4 P.M.", "size":14, "color":0 },
+    { "type": "text", "pos": { "x":10, "y":415 }, "text":"Checkout:", "size":14, "color":0 },
+    { "type": "text", "pos": { "x":10, "y":440 }, "text":"30/06 @ 11 A.M.", "size":14, "color":0 },
+
+    { "type": "debug", "value": "Parsing section: Welcome message" },
+    { "type": "text", "pos": { "x":160, "y":2 }, "text":"Isabella,", "size":120, "color":0 },
+    { "type": "text", "pos": { "x":170, "y":170 }, "text":"Welcome to our place!", "size":24, "color":0 },
+    { "type": "text", "pos": { "x":170, "y":215 }, "text":"Prior to your arrival the house was cleaned, organized and sanitized.", "size":18, "color":0 },
+    { "type": "text", "pos": { "x":170, "y":245 }, "text":"We wanted everything to be perfect for you.", "size":18, "color":0 },
+    { "type": "text", "pos": { "x":170, "y":290 }, "text":"The house was also inspected, all electronics tested and everything", "size":18, "color":0 },
+    { "type": "text", "pos": { "x":170, "y":320 }, "text":"looks just fine for you!", "size":18, "color":0 },
+    { "type": "text", "pos": { "x":170, "y":365 }, "text":"If you face any issue while checking in, please text us on AirBNB chat", "size":18, "color":0 },
+    { "type": "text", "pos": { "x":170, "y":395 }, "text":"or on the phone (904) 303-9583.", "size":18, "color":0 },
+    { "type": "text", "pos": { "x":170, "y":440 }, "text":"Make yourself at home!", "size":18, "color":0 }
+  ]
+}

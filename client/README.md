@@ -71,7 +71,7 @@ sudo pip3 install spidev
 
 * Clone this repository and run it with Python3
 ````
-git clone https://github.com/carebnb-app/airbnb-listing-wall-client.git
-cd airbnb-listing-wall-client
+git clone https://github.com/carebnb-app/airbnb-listing-wall.git
+cd airbnb-listing-wall
 python3 index.py
 ````
