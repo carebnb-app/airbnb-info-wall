@@ -11,7 +11,7 @@ screen = EInk75()
 screen.createCanvas(WHITE)
 
 # Request json
-jsonRequest = requests.get("https://raw.githubusercontent.com/carebnb-app/airbnb-listing-wall/master/server/samples/welcome.json")
+jsonRequest = requests.get("https://raw.githubusercontent.com/carebnb-app/airbnb-info-wall/master/server/samples/welcome.json")
 jsonContent = jsonRequest.text
 print(jsonContent)
 
