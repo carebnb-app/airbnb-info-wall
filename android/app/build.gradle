@@ -8,8 +8,8 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "app.carebnb.raspberrysetup"
-        minSdkVersion 19
+        applicationId "app.carebnb.smartthing"
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -20,13 +20,25 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // Android
+    implementation "com.google.android.material:material:1.2.0-beta01"
     implementation "androidx.appcompat:appcompat:1.1.0"
-    implementation "com.google.android.material:material:1.1.0"
-    implementation "androidx.core:core-ktx:+"
+    implementation "androidx.constraintlayout:constraintlayout:1.1.3"
+
+    // Kotiln
+    implementation "androidx.core:core-ktx:1.3.0"
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 }
 repositories {

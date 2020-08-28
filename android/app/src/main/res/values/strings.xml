@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Carebnb Raspberry Wifi Setup</string>
+    <string name="app_name">Carebnb Smart Thing</string>
+    <string name="bt_uuid">815425a5-bfac-47bf-9321-c5ff980b5e11</string>
 </resources>
